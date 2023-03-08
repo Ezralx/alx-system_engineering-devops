@@ -1,2 +1,1 @@
-#!/bin/bash
-cd~
+2-bring_me_home
