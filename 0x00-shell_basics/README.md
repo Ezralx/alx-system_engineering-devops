@@ -1,1 +1,2 @@
-shell_basics
+#!/bin/bash
+cd~
