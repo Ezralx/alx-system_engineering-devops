@@ -9,6 +9,8 @@
 if [ "$#" -lt "1" ]
 then
     echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+    # exit with staus code 1
+    exit 1
 else
     ping "$1" -c 5
 fi
